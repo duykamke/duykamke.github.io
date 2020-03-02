@@ -200,220 +200,6 @@
             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
           </a>
         </div>
-        <!-- PROJECT 2 -->
-  <div class="modal fade" id="modalQuickView2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-xl-7">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/lJx6jcvRhes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-            </div>
-          </div>
-          <div class="col-xl-5">
-            <h2 class="h2-responsive product-name">
-              <strong>Smart Toy Car with Object Detection</strong>
-            </h2>
-            <h4 class="h4-responsive">
-              <span class="green-text">
-                <strong>Cyber physical systems and systems of systems</strong>
-              </span>
-            </h4>
-
-            <!--Accordion wrapper-->
-            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingOne1">
-                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-                    aria-controls="collapseOne1">
-                    <h5 class="mb-0">
-                      Project Summary <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    This project aims to resolve a car's autonomous handling of an intersection. 
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingTwo2">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-                    aria-expanded="false" aria-controls="collapseTwo2">
-                    <h5 class="mb-0">
-                      Features <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    <ul>
-                      <li>
-                        <div>Following leading car ACC</div>
-                        <div>The toy car can follow a leading toy car by using either object detection
-                          or shape/color recognition. It has a function to accelerate or decelerate based
-                          on the size of the leading car, including a fail break when no car is detected.
-                        </div>
-                      </li>
-                      <li>
-                        <div>Safely stop</div>
-                        <div>The toy car can also detect a stop sign and will stop when the stop sign grows to a certain size
-                          in the car's camera. Of course, the car in front has to leave the intersection first before 
-                          the toy car can stop at the stop line.
-                        </div>
-                      </li>
-                      <li>
-                        <div>Determine when to go</div>
-                        <div>We made use of object detection to count the other toy cars in the intersection.
-                          The car has a queueing system that can determine when to go after all the cars in queue 
-                          have left the intersection. Object detection is also used to detect the other cars leaving 
-                          the intersection.
-                        </div>
-                      </li>
-                      <li>
-                        <div>Receive direction wirelessly</div>
-                        <div>The car is able to receive direction wirelessly (eg. turn left/straight/right) 
-                          and act accordingly once it's ready in queue at the intersection.
-                        </div>
-                      </li>
-                      <li>
-                        <div>Check traffic rule for direction</div>
-                        <div>We used shape/color recognition using the car's camera to detect traffic signs
-                          (eg. can't turn left/go straight/turn right). When the car has received direction wirelessly,
-                          it will choose to act accordingly to both the command and the traffic signs.
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingThree3">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-                    aria-expanded="false" aria-controls="collapseThree3">
-                    <h5 class="mb-0">
-                      Personal Contribution/Achievements<i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    <div>Object (Toy Car) Detection using OpenCV.
-                      I used HAAR Feature-based cascade classifier. Negative and positive samples are exemplified 
-                      in the pictures below
-                    </div>
-                      <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails"
-                      data-ride="carousel">
-                      <!--Slides-->
-                      <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                          <div>
-                            <img class="d-block w-100"
-                            src="img/Project ODCar/negative.jpg"
-                            alt="First slide">
-                          </div>
-                          <div>Example negative sample</div>
-                        </div>
-                        <div class="carousel-item">
-                          <div>
-                          <img class="d-block w-100"
-                            src="img/Project ODCar/positive 1.png"
-                            alt="Second slide">
-                          </div>
-                          <div>Example positive sample 1</div>
-                        </div>
-                        <div class="carousel-item">
-                          <div>
-                          <img class="d-block w-100"
-                            src="img/Project ODCar/positive 2.png"
-                            alt="Third slide">
-                          </div>
-                          <div>Example positive sample 2</div>
-                        </div>
-                        <div class="carousel-item">
-                          <div>
-                          <img class="d-block w-100"
-                            src="img/Project ODCar/positive gen 1.jpg"
-                            alt="Forth slide">
-                          </div>
-                          <div>Example generated positive sample on negative samples 1</div>
-                        </div>
-                        <div class="carousel-item">
-                          <div>
-                          <img class="d-block w-100"
-                            src="img/Project ODCar/positive gen 2.jpg"
-                            alt="Fifth slide">
-                          </div>
-                          <div>Example generated positive sample on negative samples 2</div>
-                        </div>
-                      </div>
-                      <!--/.Slides-->
-                      <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                      <!--/.Controls-->
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-
-            </div>
-            <!-- Accordion wrapper -->
-
-
-            <!-- Add to Cart -->
-            <div class="card-body">
-              <div class="text-center">
-
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a class="btn btn-primary" href="https://github.com/gusmalmgal/cyber" target="_blank">Link to source code
-                  <i class="fab fa-github ml-2" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <!-- /.Add to Cart -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
@@ -452,221 +238,222 @@
   </section>
 
 
-         <!-- PROJECT 1 -->
-         <div class="modal fade" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-         aria-hidden="true">
-         <div class="modal-dialog modal-xl" role="document">
-           <div class="modal-content">
-             <div class="modal-body">
-               <div class="row">
-                 <div class="col-xl-7">
-                   <div class="embed-responsive embed-responsive-16by9">
-                     <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/lJx6jcvRhes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                   </div>
-                 </div>
-                 <div class="col-xl-5">
-                   <h2 class="h2-responsive product-name">
-                     <strong>Smart Toy Car with Object Detection</strong>
-                   </h2>
-                   <h4 class="h4-responsive">
-                     <span class="green-text">
-                       <strong>Cyber physical systems and systems of systems</strong>
-                     </span>
-                   </h4>
-       
-                   <!--Accordion wrapper-->
-                   <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-       
-                     <!-- Accordion card -->
-                     <div class="card">
-       
-                       <!-- Card header -->
-                       <div class="card-header" role="tab" id="headingOne1">
-                         <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-                           aria-controls="collapseOne1">
-                           <h5 class="mb-0">
-                             Project Summary <i class="fas fa-angle-down rotate-icon"></i>
-                           </h5>
-                         </a>
-                       </div>
-       
-                       <!-- Card body -->
-                       <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-                         data-parent="#accordionEx">
-                         <div class="card-body">
-                           This project aims to resolve a car's autonomous handling of an intersection. 
-                         </div>
-                       </div>
-       
-                     </div>
-                     <!-- Accordion card -->
-       
-                     <!-- Accordion card -->
-                     <div class="card">
-       
-                       <!-- Card header -->
-                       <div class="card-header" role="tab" id="headingTwo2">
-                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-                           aria-expanded="false" aria-controls="collapseTwo2">
-                           <h5 class="mb-0">
-                             Features <i class="fas fa-angle-down rotate-icon"></i>
-                           </h5>
-                         </a>
-                       </div>
-       
-                       <!-- Card body -->
-                       <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-                         data-parent="#accordionEx">
-                         <div class="card-body">
-                           <ul>
-                             <li>
-                               <div>Following leading car ACC</div>
-                               <div>The toy car can follow a leading toy car by using either object detection
-                                 or shape/color recognition. It has a function to accelerate or decelerate based
-                                 on the size of the leading car, including a fail break when no car is detected.
-                               </div>
-                             </li>
-                             <li>
-                               <div>Safely stop</div>
-                               <div>The toy car can also detect a stop sign and will stop when the stop sign grows to a certain size
-                                 in the car's camera. Of course, the car in front has to leave the intersection first before 
-                                 the toy car can stop at the stop line.
-                               </div>
-                             </li>
-                             <li>
-                               <div>Determine when to go</div>
-                               <div>We made use of object detection to count the other toy cars in the intersection.
-                                 The car has a queueing system that can determine when to go after all the cars in queue 
-                                 have left the intersection. Object detection is also used to detect the other cars leaving 
-                                 the intersection.
-                               </div>
-                             </li>
-                             <li>
-                               <div>Receive direction wirelessly</div>
-                               <div>The car is able to receive direction wirelessly (eg. turn left/straight/right) 
-                                 and act accordingly once it's ready in queue at the intersection.
-                               </div>
-                             </li>
-                             <li>
-                               <div>Check traffic rule for direction</div>
-                               <div>We used shape/color recognition using the car's camera to detect traffic signs
-                                 (eg. can't turn left/go straight/turn right). When the car has received direction wirelessly,
-                                 it will choose to act accordingly to both the command and the traffic signs.
-                               </div>
-                             </li>
-                           </ul>
-                         </div>
-                       </div>
-       
-                     </div>
-                     <!-- Accordion card -->
-       
-                     <!-- Accordion card -->
-                     <div class="card">
-       
-                       <!-- Card header -->
-                       <div class="card-header" role="tab" id="headingThree3">
-                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-                           aria-expanded="false" aria-controls="collapseThree3">
-                           <h5 class="mb-0">
-                             Personal Contribution/Achievements<i class="fas fa-angle-down rotate-icon"></i>
-                           </h5>
-                         </a>
-                       </div>
-       
-                       <!-- Card body -->
-                       <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-                         data-parent="#accordionEx">
-                         <div class="card-body">
-                           <div>Object (Toy Car) Detection using OpenCV.
-                             I used HAAR Feature-based cascade classifier. Negative and positive samples are exemplified 
-                             in the pictures below
-                           </div>
-                             <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails"
-                             data-ride="carousel">
-                             <!--Slides-->
-                             <div class="carousel-inner" role="listbox">
-                               <div class="carousel-item active">
-                                 <div>
-                                   <img class="d-block w-100"
-                                   src="img/Project ODCar/negative.jpg"
-                                   alt="First slide">
-                                 </div>
-                                 <div>Example negative sample</div>
-                               </div>
-                               <div class="carousel-item">
-                                 <div>
-                                 <img class="d-block w-100"
-                                   src="img/Project ODCar/positive 1.png"
-                                   alt="Second slide">
-                                 </div>
-                                 <div>Example positive sample 1</div>
-                               </div>
-                               <div class="carousel-item">
-                                 <div>
-                                 <img class="d-block w-100"
-                                   src="img/Project ODCar/positive 2.png"
-                                   alt="Third slide">
-                                 </div>
-                                 <div>Example positive sample 2</div>
-                               </div>
-                               <div class="carousel-item">
-                                 <div>
-                                 <img class="d-block w-100"
-                                   src="img/Project ODCar/positive gen 1.jpg"
-                                   alt="Forth slide">
-                                 </div>
-                                 <div>Example generated positive sample on negative samples 1</div>
-                               </div>
-                               <div class="carousel-item">
-                                 <div>
-                                 <img class="d-block w-100"
-                                   src="img/Project ODCar/positive gen 2.jpg"
-                                   alt="Fifth slide">
-                                 </div>
-                                 <div>Example generated positive sample on negative samples 2</div>
-                               </div>
-                             </div>
-                             <!--/.Slides-->
-                             <!--Controls-->
-                             <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
-                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                               <span class="sr-only">Previous</span>
-                             </a>
-                             <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
-                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                               <span class="sr-only">Next</span>
-                             </a>
-                             <!--/.Controls-->
-                           </div>
-                         </div>
-                       </div>
-       
-                     </div>
-                     <!-- Accordion card -->
-       
-                   </div>
-                   <!-- Accordion wrapper -->
-       
-       
-                   <!-- Add to Cart -->
-                   <div class="card-body">
-                     <div class="text-center">
-       
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                       <a class="btn btn-primary" href="https://github.com/gusmalmgal/cyber" target="_blank">Link to source code
-                         <i class="fab fa-github ml-2" aria-hidden="true"></i>
-                       </a>
-                     </div>
-                   </div>
-                   <!-- /.Add to Cart -->
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       
+  <!-- PROJECT 1 -->
+  <div class="modal fade" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-7">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/lJx6jcvRhes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <h2 class="h2-responsive product-name">
+                <strong>Smart Toy Car with Object Detection</strong>
+              </h2>
+              <h4 class="h4-responsive">
+                <span class="green-text">
+                  <strong>Cyber physical systems and systems of systems</strong>
+                </span>
+              </h4>
+  
+              <!--Accordion wrapper-->
+              <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+  
+                <!-- Accordion card -->
+                <div class="card">
+  
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingOne1">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                      aria-controls="collapseOne1">
+                      <h5 class="mb-0">
+                        Project Summary <i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+  
+                  <!-- Card body -->
+                  <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                      This project aims to resolve a car's autonomous handling of an intersection. 
+                    </div>
+                  </div>
+  
+                </div>
+                <!-- Accordion card -->
+  
+                <!-- Accordion card -->
+                <div class="card">
+  
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingTwo2">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                      aria-expanded="false" aria-controls="collapseTwo2">
+                      <h5 class="mb-0">
+                        Features <i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+  
+                  <!-- Card body -->
+                  <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                      <ul>
+                        <li>
+                          <div>Following leading car ACC</div>
+                          <div>The toy car can follow a leading toy car by using either object detection
+                            or shape/color recognition. It has a function to accelerate or decelerate based
+                            on the size of the leading car, including a fail break when no car is detected.
+                          </div>
+                        </li>
+                        <li>
+                          <div>Safely stop</div>
+                          <div>The toy car can also detect a stop sign and will stop when the stop sign grows to a certain size
+                            in the car's camera. Of course, the car in front has to leave the intersection first before 
+                            the toy car can stop at the stop line.
+                          </div>
+                        </li>
+                        <li>
+                          <div>Determine when to go</div>
+                          <div>We made use of object detection to count the other toy cars in the intersection.
+                            The car has a queueing system that can determine when to go after all the cars in queue 
+                            have left the intersection. Object detection is also used to detect the other cars leaving 
+                            the intersection.
+                          </div>
+                        </li>
+                        <li>
+                          <div>Receive direction wirelessly</div>
+                          <div>The car is able to receive direction wirelessly (eg. turn left/straight/right) 
+                            and act accordingly once it's ready in queue at the intersection.
+                          </div>
+                        </li>
+                        <li>
+                          <div>Check traffic rule for direction</div>
+                          <div>We used shape/color recognition using the car's camera to detect traffic signs
+                            (eg. can't turn left/go straight/turn right). When the car has received direction wirelessly,
+                            it will choose to act accordingly to both the command and the traffic signs.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+  
+                </div>
+                <!-- Accordion card -->
+  
+                <!-- Accordion card -->
+                <div class="card">
+  
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingThree3">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                      aria-expanded="false" aria-controls="collapseThree3">
+                      <h5 class="mb-0">
+                        Personal Contribution/Achievements<i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+  
+                  <!-- Card body -->
+                  <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                      <div>Object (Toy Car) Detection using OpenCV.
+                        I used HAAR Feature-based cascade classifier. Negative and positive samples are exemplified 
+                        in the pictures below
+                      </div>
+                        <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails"
+                        data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                          <div class="carousel-item active">
+                            <div>
+                              <img class="d-block w-100"
+                              src="img/Project ODCar/negative.jpg"
+                              alt="First slide">
+                            </div>
+                            <div>Example negative sample</div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                            <img class="d-block w-100"
+                              src="img/Project ODCar/positive 1.png"
+                              alt="Second slide">
+                            </div>
+                            <div>Example positive sample 1</div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                            <img class="d-block w-100"
+                              src="img/Project ODCar/positive 2.png"
+                              alt="Third slide">
+                            </div>
+                            <div>Example positive sample 2</div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                            <img class="d-block w-100"
+                              src="img/Project ODCar/positive gen 1.jpg"
+                              alt="Forth slide">
+                            </div>
+                            <div>Example generated positive sample on negative samples 1</div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                            <img class="d-block w-100"
+                              src="img/Project ODCar/positive gen 2.jpg"
+                              alt="Fifth slide">
+                            </div>
+                            <div>Example generated positive sample on negative samples 2</div>
+                          </div>
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                        <!--/.Controls-->
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+                <!-- Accordion card -->
+  
+              </div>
+              <!-- Accordion wrapper -->
+  
+  
+              <!-- Add to Cart -->
+              <div class="card-body">
+                <div class="text-center">
+  
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary" href="https://github.com/gusmalmgal/cyber" target="_blank">Link to source code
+                    <i class="fab fa-github ml-2" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- /.Add to Cart -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
